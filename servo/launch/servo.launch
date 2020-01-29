@@ -1,0 +1,12 @@
+<launch>
+
+<!-- To run servo_node 
+    <rosparam file="$(find servo)/yaml/servo_params.yaml" command="load" ns="srcHals"/>
+    <node name="servo" pkg="servo" type="servo_node" output="screen"/>
+-->
+
+<!-- To run servo_node_fourMotors -->
+    <rosparam file="$(find servo)/yaml/servo_params_fourMotors.yaml" command="load" ns="srcHals"/>
+    <node name="servo" pkg="servo" type="servo_node" output="screen"/>
+
+</launch>
