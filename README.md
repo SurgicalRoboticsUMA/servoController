@@ -21,7 +21,7 @@ If you get a “Permission denied” error when trying to connect to the program
 ## To build
 
 ```bash
-git clone (enlace de descarga!!)
+git clone https://github.com/SurgicalRoboticsUMA/servoController.git
 catkin build
 ```
 
