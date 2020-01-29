@@ -21,8 +21,10 @@ If you get a “Permission denied” error when trying to connect to the program
 ## To build
 
 ```bash
+cd catkin_ws/src/
 git clone https://github.com/SurgicalRoboticsUMA/servoController.git
-catkin build
+cd ..
+catkin_make
 ```
 
 ## Device functions
