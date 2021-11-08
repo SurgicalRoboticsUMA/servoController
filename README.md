@@ -7,7 +7,7 @@ Download the software from the [Pololu webpage](https://www.pololu.com/docs/0J40
 
 ```bash
 cd Downloads/
-tar -xzvf maestro-linux-150116.tar.gz
+tar -xzvf <<nombre-fichero>>
 ```
 
 Follow the *README.txt* instructions. Then, to run the program, go to the folder *maesro-linux*:
